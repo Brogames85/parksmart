@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Car</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ParkSmart</h1>
+            <a href="/" class="back-button">← Back</a>
+        </div>
+        <div class="main-content">
+            <h2>Search Car</h2>
+            <p>Stuck somewhere? Car parking in front of you? Search the car number plate and try contacting the owner!</p>
+            <form enctype="application/x-www-form-urlencoded" method="POST" id="searchForm">
+            <input type="text" id="searchCarNumber" placeholder="Car Plate Number - MP09AB1234" name="search" required>
+            <button id="searchCarButton" class="button search-button" type="submit">Search</button>
+            <p id="searchResult"></p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        ©️ 2024 ParkSmart. All rights reserved.
+    </footer>
+    <script src="js/search.js"></script>
+</body>
+</html>

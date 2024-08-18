@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Car</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ParkSmart</h1>
+            <a href="/" class="back-button">← Back</a>
+        </div>
+        <div class="main-content">
+            <h2>Register Your Car</h2>
+            <p>Help people out by registering your car so that they can find you!</p>
+            <form enctype="application/x-www-form-urlencoded" method="POST" id="registerCar">
+            <input type="text" id="carNumber" placeholder="Example Car Number - MP09AB1234" name="carNum" required>
+            <input type="text" id="phoneNumber" placeholder="Example Phone Number - 9876543211" name="phNum" required>
+            <button id="registerCarButton" class="button register-button" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        ©️ 2024 ParkSmart. All rights reserved.
+    </footer>
+    <script src="js/register.js" type="module"></script>
+</body>
+</html>
